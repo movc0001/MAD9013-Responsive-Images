@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+wrapper {
+	width: 95%;
+}
+
+ul {
+}
+
+ul li {
+	list-style: none;
+	padding: 25px 25px;
+	
+}
+
+picture,
+img {
+	width: 100%;
+	height: auto;
+}
+
+@media all and (max-width: 400px) {
+	img {
+		content: url("http://lorempixel.com/400/400/");
+		max-width: 400px;
+		max-height: 400px;
+	}
+}
+
+@media all and (max-width: 600px) and (min-width: 400px) {
+	img {
+		content: url("http://lorempixel.com/600/600/");
+		max-width: 600px;
+		max-height: 600px;
+	}
+}
+
+@media all and (max-width: 800px) and (min-width: 600px) {
+	ul li{
+		padding: 15px 15px;
+		
+	}
+	li {
+		width: 50%;
+		float: left;
+	}
+	img {
+		content: url("http://lorempixel.com/400/400/");
+		max-width: 400px;
+		max-height: 400px;
+	}
+}
+
+@media all and (max-width: 1024px) and (min-width: 800px) {
+	ul li{
+		padding: 15px 15px;
+		
+	}
+	
+	li {
+		width: 50%;
+		float: left;
+	}
+	img {
+		content: url("http://lorempixel.com/512/512/");
+		max-width: 512px;
+		max-height: 512px;
+	}
+}
+
+@media all and (min-width: 1024px) {
+	
+	
+	ul li{
+		padding: 25px 25px;
+		text-align: center;
+		
+	}
+	li {
+		width: 33.3%;
+		float: left;
+		
+		
+	}
+	img {
+		content: url("http://lorempixel.com/340/340/");
+		max-width: 512px;
+		max-height: 512px;
+		
+	}
+}
