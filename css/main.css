@@ -4,17 +4,16 @@
 	box-sizing: border-box;
 }
 
-wrapper {
+#wrapper {
 	width: 95%;
+	margin: auto;
 }
 
-ul {
-}
+ul {}
 
 ul li {
 	list-style: none;
 	padding: 25px 25px;
-	
 }
 
 picture,
@@ -40,9 +39,8 @@ img {
 }
 
 @media all and (max-width: 800px) and (min-width: 600px) {
-	ul li{
+	ul li {
 		padding: 15px 15px;
-		
 	}
 	li {
 		width: 50%;
@@ -56,11 +54,9 @@ img {
 }
 
 @media all and (max-width: 1024px) and (min-width: 800px) {
-	ul li{
+	ul li {
 		padding: 15px 15px;
-		
 	}
-	
 	li {
 		width: 50%;
 		float: left;
@@ -73,23 +69,20 @@ img {
 }
 
 @media all and (min-width: 1024px) {
-	
-	
-	ul li{
+	#wrapper {
+		max-width: 1024px;
+		margin: auto;
+	}
+	ul li {
 		padding: 25px 25px;
-		text-align: center;
-		
 	}
 	li {
 		width: 33.3%;
 		float: left;
-		
-		
 	}
 	img {
 		content: url("http://lorempixel.com/340/340/");
 		max-width: 512px;
 		max-height: 512px;
-		
 	}
 }
