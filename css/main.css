@@ -4,25 +4,36 @@
 	box-sizing: border-box;
 }
 
+
 #wrapper {
-	width: 95%;
-	margin: auto;
+	
+	max-width:1024px;
+	margin:0 auto;
+	
+	
 }
 
-ul {}
+ul {
+	list-style: none;
+	
+}
 
 ul li {
-	list-style: none;
-	padding: 25px 25px;
+	/*padding-right: 1px;*/
+	float: left;
+	
 }
 
 picture,
 img {
 	width: 100%;
 	height: auto;
+	
 }
 
-@media all and (max-width: 400px) {
+
+
+/*@media all and (max-width: 400px) {
 	img {
 		content: url("http://lorempixel.com/400/400/");
 		max-width: 400px;
@@ -85,4 +96,4 @@ img {
 		max-width: 512px;
 		max-height: 512px;
 	}
-}
+}*/
